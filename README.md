@@ -50,6 +50,7 @@ Launch the utility to view output: <br/>
 <br />
 <br />
 <h2>Key Components of Program</h2>
+<p align="center">
 <h4>Class Inheritance</h4>
    
    - Project consists of three classes: Point1D, Point2D and Point3D.
