@@ -3,7 +3,12 @@
 <h2>Description</h2>
 Project consists of a simple C++ program that demonstrates the use of class inheritance to enhance code reusability. The program calculates the distance from a point to the origin in 1D, 2D, and 3D spaces. Rather than duplicating code for each dimension, inheritance allows common functionality to be reused efficiently.
 
-Components
+<h2>Why Inheritance is Important</h2>
+   - The x coordinate is declared once in Point1D and reused in Point2D and Point3D, avoiding code duplication.
+   - The DistanceToOrigin() function can be overridden in the derived classes to calculate distances in higher dimensions, while still reusing the code from the base class (Point1D).
+   - This approach simplifies the code structure and makes it easier to extend to more dimensions if needed in the future.
+
+
 1. Class Inheritance:
    - Project consists of three classes: Point1D, Point2D and Point3D.
    - Inheritance is used to share common code between these classes. Since each space builds on the previous one (e.g., Point2D includes both x and y coordinates, and Point3D adds a z coordinate), the x coordinate is only declared once in the Point1D class and reused        in the other classes.
@@ -17,10 +22,7 @@ Components
    - The main function initializes the points in 1D, 2D, and 3D spaces and calculates their distances to the origin using the respective DistanceToOrigin() method, which is defined in each class.
    - For each class (Point1D, Point2D, Point3D), a separate calculation is made using the inherited x value (and additional y and z values for 2D and 3D respectively).
 
-Why Inheritance is Important
-   - The x coordinate is declared once in Point1D and reused in Point2D and Point3D, avoiding code duplication.
-   - The DistanceToOrigin() function can be overridden in the derived classes to calculate distances in higher dimensions, while still reusing the code from the base class (Point1D).
-   - This approach simplifies the code structure and makes it easier to extend to more dimensions if needed in the future.
+
 
 <br />
 
