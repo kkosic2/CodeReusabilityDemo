@@ -51,10 +51,11 @@ Launch the utility to view output: <br/>
 <br />
 <h2>Key Components of Program</h2>
 <h4>Class Inheritance</h4>
+   
+   - Project consists of three classes: Point1D, Point2D and Point3D.
+   - Inheritance is used to share common code between these classes. Since each space builds on the previous one (e.g., Point2D includes both x and y coordinates, and Point3D adds a z coordinate), the x coordinate is only declared once in the Point1D class and reused        in the other classes.
+   - This prevents code duplication and simplifies future maintenance or changes to the program.
 <img src="https://imgur.com/uvyG5QY.png" height="80%" width="80%" alt="Program Steps"/>
-- Project consists of three classes: Point1D, Point2D and Point3D.
-- Inheritance is used to share common code between these classes. Since each space builds on the previous one (e.g., Point2D includes both x and y coordinates, and Point3D adds a z coordinate), the x coordinate is only declared once in the Point1D class and reused        in the other classes.
-- This prevents code duplication and simplifies future maintenance or changes to the program.
 <br />
 <br />
 Choose your orbital destination: <br/>
