@@ -50,9 +50,6 @@ Launch the utility to view output: <br/>
    - The program dynamically allocates memory for objects and stores them in three separate vectors: one for 1D points, another for 2D points, and the last for 3D points.
    - Range-based for loops are used to iterate through these vectors.
 
-<br />
-<br />
-
 <h4>The Main Function</h4>
 
    - The main function initializes the points in 1D, 2D, and 3D spaces and calculates their distances to the origin using the respective DistanceToOrigin() method, which is defined in each class.
