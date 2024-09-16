@@ -45,11 +45,11 @@ Project consists of a simple C++ program that demonstrates the use of class inhe
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+Launch the utility to view output: <br/>
 <img src="https://imgur.com/5MjHlOV.png" height="80%" width="80%" alt="Program Steps"/>
 <br />
 <br />
-Select your spacecraft:  <br/>
+<h2>Key Components of Program</h2>
 <img src="https://i.imgur.com/9liQxav.png" height="80%" width="80%" alt="Program Steps"/>
 <br />
 <br />
