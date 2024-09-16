@@ -9,9 +9,18 @@ Components
    - Inheritance is used to share common code between these classes. Since each space builds on the previous one (e.g., Point2D includes both x and y coordinates, and Point3D adds a z coordinate), the x coordinate is only declared once in the Point1D class and reused        in the other classes.
    - This prevents code duplication and simplifies future maintenance or changes to the program.
 
+2. Memory and Vectors
+   - The program dynamically allocates memory for objects and stores them in three separate vectors: one for 1D points, another for 2D points, and the last for 3D points.
+   - Range-based for loops are used to iterate through these vectors.
+  
+3. Main Function
+   - The main function initializes the points in 1D, 2D, and 3D spaces and calculates their distances to the origin using the respective DistanceToOrigin() method, which is defined in each class.
+   - For each class (Point1D, Point2D, Point3D), a separate calculation is made using the inherited x value (and additional y and z values for 2D and 3D respectively).
 
-
-In this program you will find a main cpp file that consists of 3 vectors, dynamic memory allocation and ranged-based for loops. You will also find 3 header files that contain the classes Point1D, Point2D and Point3D. There are 3 cpp files for each class respectively and inside them are declarations and definitions of member functions. When this program is ran, it will calcuate the distance to origin for values in 1D, 2D and 3D spaces. Since each space is related to one another; 1D consists of x, 2D consists of x,y and 3D consists of x, y, z; inheritance is utilized to reusue code instead of making new classes. You will only need to declare x once and then you can use it in any inheritid class.
+Why Inheritance is Important
+   - The x coordinate is declared once in Point1D and reused in Point2D and Point3D, avoiding code duplication.
+   - The DistanceToOrigin() function can be overridden in the derived classes to calculate distances in higher dimensions, while still reusing the code from the base class (Point1D).
+   - This approach simplifies the code structure and makes it easier to extend to more dimensions if needed in the future.
 
 <br />
 
