@@ -10,14 +10,6 @@ Project consists of a simple C++ program that demonstrates the use of class inhe
    - The DistanceToOrigin() function can be overridden in the derived classes to calculate distances in higher dimensions, while still reusing the code from the base class (Point1D).
    - This approach simplifies the code structure and makes it easier to extend to more dimensions if needed in the future.
 
-
-<h3>Program Key Components</h3>
-<h4>Class Inheritance</h4>
-
-   - Project consists of three classes: Point1D, Point2D and Point3D.
-   - Inheritance is used to share common code between these classes. Since each space builds on the previous one (e.g., Point2D includes both x and y coordinates, and Point3D adds a z coordinate), the x coordinate is only declared once in the Point1D class and reused        in the other classes.
-   - This prevents code duplication and simplifies future maintenance or changes to the program.
-
 <h4>Memory and Vectors</h4>
 
    - The program dynamically allocates memory for objects and stores them in three separate vectors: one for 1D points, another for 2D points, and the last for 3D points.
@@ -60,6 +52,13 @@ Launch the utility to view output: <br/>
 
 <p align="center">
 <img src="https://imgur.com/uvyG5QY.png" height="40%" width="40%" alt="Program Steps"/>
+<br />
+<br />
+<h4>Memory and Vectors</h4>
+
+   - The program dynamically allocates memory for objects and stores them in three separate vectors: one for 1D points, another for 2D points, and the last for 3D points.
+   - Range-based for loops are used to iterate through these vectors.
+
 <br />
 <br />
 
