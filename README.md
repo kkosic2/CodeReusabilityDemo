@@ -1,7 +1,15 @@
 <h1>Code Reusability Demo</h1>
 
 <h2>Description</h2>
-Project consists of a simple C++ program that walks the user through 
+Project consists of a simple C++ program that demonstrates the use of class inheritance to enhance code reusability. The program calculates the distance from a point to the origin in 1D, 2D, and 3D spaces. Rather than duplicating code for each dimension, inheritance allows common functionality to be reused efficiently. 
+
+Components
+1. Class Inheritance:
+   - Project consists of three classes: Point1D, Point2D and Point3D.
+   - Inheritance is used to share common code between these classes. Since each space builds on the previous one (e.g., Point2D includes both x and y coordinates, and Point3D adds a z coordinate), the x coordinate is only declared once in the Point1D class and reused        in the other classes.
+
+
+In this program you will find a main cpp file that consists of 3 vectors, dynamic memory allocation and ranged-based for loops. You will also find 3 header files that contain the classes Point1D, Point2D and Point3D. There are 3 cpp files for each class respectively and inside them are declarations and definitions of member functions. When this program is ran, it will calcuate the distance to origin for values in 1D, 2D and 3D spaces. Since each space is related to one another; 1D consists of x, 2D consists of x,y and 3D consists of x, y, z; inheritance is utilized to reusue code instead of making new classes. You will only need to declare x once and then you can use it in any inheritid class.
 
 <br />
 
