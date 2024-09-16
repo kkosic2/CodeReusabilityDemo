@@ -46,7 +46,7 @@ Project consists of a simple C++ program that demonstrates the use of class inhe
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/7ZLEj3v.png" height="80%" width="80%" alt="Program Steps"/>
+<img src="https://imgur.com/5MjHlOV.png" height="80%" width="80%" alt="Program Steps"/>
 <br />
 <br />
 Select your spacecraft:  <br/>
