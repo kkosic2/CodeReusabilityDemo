@@ -4,8 +4,8 @@
 Project consists of a simple C++ program that demonstrates the use of class inheritance to enhance code reusability. The program calculates the distance from a point to the origin in 1D, 2D, and 3D spaces. Rather than duplicating code for each dimension, inheritance allows common functionality to be reused efficiently.
 
 <h2>Why Inheritance is Important</h2>
+
    - The x coordinate is declared once in Point1D and reused in Point2D and Point3D, avoiding code duplication.
-   
    - The DistanceToOrigin() function can be overridden in the derived classes to calculate distances in higher dimensions, while still reusing the code from the base class (Point1D).
    - This approach simplifies the code structure and makes it easier to extend to more dimensions if needed in the future.
 
